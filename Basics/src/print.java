@@ -9,10 +9,8 @@ public class print {
 		if(a>6) {
 		System.out.println("cheching");
 		}
-		else
-		{
+		else{
 			System.out.println("enter again");
 		}
 	}
-
 }
