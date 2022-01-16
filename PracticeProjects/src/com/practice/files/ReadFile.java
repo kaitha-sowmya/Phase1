@@ -6,7 +6,7 @@ public class ReadFile {
 	 
 	    public static void main(String[] args) {
 	        try {
-	            FileReader reader = new FileReader("D://filepath//testFile2.txt");
+	            FileReader reader = new FileReader("D://filepath//testFile3.txt");
 	            int character;
 	 
 	            while ((character = reader.read()) != -1) {
