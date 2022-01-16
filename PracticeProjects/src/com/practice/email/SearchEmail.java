@@ -21,13 +21,15 @@ public class SearchEmail {
 	      
 	      
 	      for (String m: al){
-	    	  
-	         if (m.contains(mail)){
-	               System.out.println(m+"exists");
+	    	//  System.out.println("hi");
+	    	  //System.out.println(al);
+	    	  boolean result=m.equals(mail);
+	         if (result=false){
+	               System.out.println(m+" does not exists");
 	               
 	         }
 	         else {
-	        	 System.out.println("enter a valid mail or mail does not exist");
+	        	 System.out.println(" mail exist");
 	        	 break;
 	         }
 	        	 
